@@ -2,10 +2,29 @@ img {
   height: 25vh;
 }
 
+h2 {
+  display: none;
+}
+
 .walrus {
   display: none;
 }
 
 .applause {
   background-image: url("../img/applause.gif");
+}
+
+@media screen and (max-width: 1000px) {
+  .row {
+    float: left;
+    width: 50vw;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  h2 {
+    display: block;
+  }
 }
