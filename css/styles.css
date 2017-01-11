@@ -1,0 +1,11 @@
+img {
+  height: 25vh;
+}
+
+.walrus {
+  display: none;
+}
+
+.applause {
+  background-image: url("../img/applause.gif");
+}
